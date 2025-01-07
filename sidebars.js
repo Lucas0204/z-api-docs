@@ -142,6 +142,7 @@ module.exports = {
       'chats/clear-chat',
       'chats/delete-chat',
       'chats/send-chat-expiration',
+      // 'chats/request-older-messages',
     ],
     Calls: ['calls/introduction', 'calls/send-call'],
     Groups: [
@@ -179,10 +180,7 @@ module.exports = {
       'communities/community-settings',
       'communities/deactivate-community',
     ],
-    'Meta AI': [
-      'metaai/introduction',
-      'metaai/conversation'
-    ],
+    'Meta AI': ['metaai/introduction', 'metaai/conversation'],
     Newsletter: [
       'newsletter/introduction',
       'newsletter/create-newsletter',
